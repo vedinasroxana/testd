@@ -5,7 +5,7 @@ RUN sed -i "s/localhost/mysql.demo.svc.cluster.locali/g" /app/web/common/config/
 RUN sed -i "s/root/mai/g" /app/web/common/config/main-local.php
 #RUN composer update
 #RUN php init --env=Development --overwrite=n
-RUN /usr/libexec/s2i/assemble
+#RUN /usr/libexec/s2i/assemble
 
 # Set the default command for the resulting image
-CMD /usr/libexec/s2i/run
+#@CMD /usr/libexec/s2i/run
