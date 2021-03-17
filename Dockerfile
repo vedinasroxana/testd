@@ -8,4 +8,4 @@ RUN sed -i "s/root/mai/g" /app/web/common/config/main-local.php
 #RUN /usr/libexec/s2i/assemble
 
 # Set the default command for the resulting image
-#@CMD /usr/libexec/s2i/run
+CMD /usr/libexec/s2i/run
