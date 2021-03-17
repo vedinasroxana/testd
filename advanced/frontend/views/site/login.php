@@ -41,7 +41,7 @@ $this->title = 'Login';
                 <?= $form->field($model, 'rememberMe')->checkbox()->label('Ține-mă minte') ?>
                 
                 <div class="form-group">
-                  <button class="button1" style="background-color:forestgreen; display: block; margin: 0 auto;"><span>Login </span></button>
+                  <button class="button1" style="background-color:forestgreen; display: block; margin: 0 auto;"><span>Login - 1 </span></button>
                 </div>
 
             <?php ActiveForm::end(); ?>
